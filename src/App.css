@@ -1,0 +1,111 @@
+body {
+  background-color: #f5f5dc; /* A light beige color resembling paper */
+  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* A paper texture */
+  background-size: cover;
+  background-repeat: repeat;
+  font-family: 'Roboto', 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Roboto', 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white to enhance readability */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+  border-radius: 8px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 40px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px 8px 0 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tabs button {
+  background: #adadad;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tabs button.active {
+  background: #61dafb;
+  color: white;
+}
+
+.tabs button:hover {
+  background: #61dafb;
+  color: white;
+}
+
+.tab-content {
+  padding: 20px;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tab-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14.5px;
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+}
+
+.quiz .question {
+  margin-bottom: 20px;
+}
+
+.quiz .question p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.quiz .question button {
+  background: #f0f0f0;
+  border: 2px solid #adadad;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease, border-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.quiz .question button:hover {
+  background: #e0e0e0;
+}
+
+.quiz .question button.correct {
+  background: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
+.quiz .question button.correct:hover {
+  background: #45a049;
+}
